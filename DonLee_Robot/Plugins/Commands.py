@@ -33,7 +33,13 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = f"{file_name} \n \n♻️കൂടുതൽ സിനിമകൾക്കും മറ്റു വിവരങ്ങൾക്കുമായി ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യൂ♻️
+━━━━━━━━━━━━━━━━
+🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят🎗️
+
+👥 Group : @efcinema 
+📢Channel📢:https://t.me/joinchat/9NVz9tJLa3E0OWVl
+🗂️Series channel🗂️:https://t.me/joinchat/TV5ijQpEgxxiNTJl",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
